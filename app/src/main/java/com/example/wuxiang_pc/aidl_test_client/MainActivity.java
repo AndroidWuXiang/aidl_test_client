@@ -40,9 +40,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Intent intent = new Intent();
-        intent.setAction("com.wuxiang_pc.remote");
-        intent.setPackage(getPackageName());
-        Boolean b = bindService(intent,conn,BIND_AUTO_CREATE);
-        Toast.makeText(MainActivity.this, "===:"+b, Toast.LENGTH_SHORT).show();
+        //intent.setAction("com.wuxiang_pc.remote");
+        //intent.setPackage(getPackageName());
+        //Boolean b = bindService(intent,conn,BIND_AUTO_CREATE);
+        //Toast.makeText(MainActivity.this, "===:"+b, Toast.LENGTH_SHORT).show();
     }
 }
